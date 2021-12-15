@@ -1,0 +1,5 @@
+name: bed_number__c
+group: 病人信息
+label: 床位号
+sort_no: 220
+type: text

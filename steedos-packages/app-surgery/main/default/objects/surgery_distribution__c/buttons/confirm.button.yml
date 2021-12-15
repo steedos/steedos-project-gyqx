@@ -1,0 +1,4 @@
+name: confirm
+is_enable: true
+label: 确认
+'on': record_only

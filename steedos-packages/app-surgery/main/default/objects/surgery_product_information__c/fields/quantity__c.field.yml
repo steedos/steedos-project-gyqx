@@ -1,0 +1,7 @@
+name: quantity__c
+group: 材料包信息
+label: 子件数量
+precision: 18
+scale: 2
+sort_no: 220
+type: number

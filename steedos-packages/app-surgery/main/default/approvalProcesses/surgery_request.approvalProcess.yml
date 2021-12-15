@@ -1,0 +1,19 @@
+name: surgery_request
+label: 手术请领单
+object_name: surgery_request__c
+order: 1
+entry_criteria: 'ISPICKVAL(state__c, "草稿")'
+record_editability: admin_only
+allow_recall: false
+initial_submission_record_lock: lock
+final_approval_record_lock: lock
+final_rejection_record_lock: unlock
+recall_record_lock: unlock
+active: true
+process_nodes:
+  - name: leader
+    label: 业务领导
+    order: 1
+    filtrad: true
+    approver: submitter_choose
+    reject_behavior: reject_request

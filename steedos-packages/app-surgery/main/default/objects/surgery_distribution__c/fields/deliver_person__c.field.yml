@@ -1,0 +1,5 @@
+name: deliver_person__c
+group: 运输信息
+label: 收货人
+sort_no: 340
+type: text

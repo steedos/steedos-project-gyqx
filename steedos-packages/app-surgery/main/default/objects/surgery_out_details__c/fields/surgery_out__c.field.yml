@@ -1,0 +1,6 @@
+name: surgery_out__c
+label: 手术出库单
+reference_to: surgery_out__c
+sort_no: 110
+type: master_detail
+write_requires_master_read: true

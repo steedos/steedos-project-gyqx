@@ -1,0 +1,6 @@
+name: surgery_distribution__c
+label: 手术配货单
+reference_to: surgery_distribution__c
+sort_no: 110
+type: master_detail
+write_requires_master_read: true

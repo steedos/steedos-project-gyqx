@@ -1,0 +1,5 @@
+name: surgery_site__c
+label: 手术部位
+reference_to: surgery_site__c
+sort_no: 210
+type: lookup

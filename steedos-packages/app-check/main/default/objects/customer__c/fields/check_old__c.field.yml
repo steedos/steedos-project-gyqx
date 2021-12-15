@@ -1,0 +1,5 @@
+name: check_old__c
+group: 公司信息
+label: 校验旧分类
+sort_no: 160
+type: boolean

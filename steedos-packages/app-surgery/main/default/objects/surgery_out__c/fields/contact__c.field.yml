@@ -1,0 +1,5 @@
+name: contact__c
+group: 联系人信息
+label: 姓名
+sort_no: 160
+type: text

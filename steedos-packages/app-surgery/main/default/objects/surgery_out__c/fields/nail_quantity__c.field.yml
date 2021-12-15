@@ -1,0 +1,20 @@
+name: nail_quantity__c
+data_type: number
+group: 数量汇总
+label: 骨钉数量
+omit: false
+precision: 18
+readonly: false
+required: false
+scale: 2
+searchable: false
+sort_no: 280
+sortable: true
+summary_field: quantity__c
+summary_filters:
+  - field: material_type__c
+    operation: '='
+    value: 骨钉
+summary_object: surgery_request_details__c
+summary_type: sum
+type: summary

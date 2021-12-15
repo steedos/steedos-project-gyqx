@@ -1,0 +1,5 @@
+name: attach__c
+label: 附件
+multiple: true
+sort_no: 210
+type: file

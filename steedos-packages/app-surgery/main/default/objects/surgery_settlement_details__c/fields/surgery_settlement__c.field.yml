@@ -1,0 +1,6 @@
+name: surgery_settlement__c
+label: 结算单
+reference_to: surgery_settlement__c
+sort_no: 110
+type: master_detail
+write_requires_master_read: true

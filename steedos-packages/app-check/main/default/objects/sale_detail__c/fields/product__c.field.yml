@@ -1,0 +1,5 @@
+name: product__c
+label: 商品名称
+reference_to: product__c
+sort_no: 110
+type: lookup

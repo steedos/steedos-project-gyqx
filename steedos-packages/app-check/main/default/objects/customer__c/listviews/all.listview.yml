@@ -1,0 +1,21 @@
+name: all
+columns:
+  - field: name
+    _id: 735a43bf-de4c-4a48-8087-20de401a7c20
+  - _id: 0328eff6-dd26-47dc-8a2c-d539b1da66ca
+    field: customer_name__c
+  - _id: f2e79491-9407-4ea6-b0e9-705b8bdfed32
+    field: type__c
+  - _id: e38d52b0-1ce3-4397-80e7-8f16d63a86ac
+    field: company__c
+  - _id: 7ee0b34f-b8eb-4dcb-bc9b-bb38d52c4d65
+    field: company_code__c
+  - _id: ebc13279-4292-48b8-a9b0-a502c126ce56
+    field: check_new__c
+  - _id: 01100b24-cc14-4661-ba8b-ae8cec373090
+    field: check_old__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

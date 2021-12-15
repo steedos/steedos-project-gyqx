@@ -1,0 +1,31 @@
+name: all
+columns:
+  - field: name
+    _id: 3f17a441-98ba-4b36-8580-82e3b8710294
+  - _id: 5bd92b8c-d0a0-4660-8dca-f42e6b0d665f
+    field: surgery_date__c
+  - _id: ad26fc19-455b-422e-8a5b-a44c5b161752
+    field: hospital_name__c
+  - _id: 2369fbd1-c008-468d-9c63-9afb3646e4db
+    field: surgery_type__c
+  - _id: 3c94a5c9-73fa-45f9-a939-3bb684199125
+    field: surgery_site__c
+  - _id: cbd53830-f1d2-4256-bca6-095283c52a99
+    field: amount__c
+  - _id: 59d8dade-cae0-44c6-a6d7-700567f9e2e4
+    field: consumables_package__c
+  - _id: e7d59379-f012-4b8c-ba1e-839edc6c57c5
+    field: nail_box__c
+  - _id: aa094c40-5b4a-4495-9e7e-756ae4d54f3e
+    field: toolkit__c
+  - _id: 77c9ba5d-6ab0-4fd0-8ca4-dca79f67a43c
+    field: state__c
+  - _id: 4da993cc-e8ad-4745-a765-98578469c058
+    field: created
+  - _id: d9ea8572-6fb7-4c5d-afa9-bd5f04848433
+    field: created_by
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

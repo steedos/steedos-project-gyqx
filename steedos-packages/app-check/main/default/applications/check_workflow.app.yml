@@ -1,0 +1,13 @@
+name: 校验场景业务
+code: check_workflow
+description: 新旧分类校验和客商公司范围检验场景基础数据
+icon_slds: answer_public
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: true
+objects:
+  - sale__c
+sort: 9100
+visible: true

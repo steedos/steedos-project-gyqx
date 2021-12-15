@@ -1,0 +1,25 @@
+name: all
+columns:
+  - field: name
+    _id: 1eef3c39-ca40-4c40-a7a6-849f6e6df315
+  - _id: dead42a2-222d-406f-8de0-19bd532dd1c3
+    field: product_code__c
+  - _id: eb0117df-db9b-4206-9a8a-5f90fd3a32d3
+    field: type__c
+  - _id: c7dc7a9a-275c-42c1-babe-522f3881d25f
+    field: measure__c
+  - _id: ccc2dd2d-3303-4247-870b-88cd00441e6a
+    field: supplier__c
+  - _id: 6050bf10-9af6-492d-96cb-8074a38bf885
+    field: risk__c
+  - _id: 39e4cc13-c59e-4031-ad4a-ec4b08476e2d
+    field: product_type__c
+  - _id: 7e4f10fb-7297-4629-aad6-0f38c1d3e341
+    field: risk_new__c
+  - _id: 1cd83873-1d39-44ae-a423-550c1852418f
+    field: product_type_new__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

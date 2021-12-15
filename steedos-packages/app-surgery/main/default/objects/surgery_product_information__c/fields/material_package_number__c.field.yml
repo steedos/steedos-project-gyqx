@@ -1,0 +1,5 @@
+name: material_package_number__c
+group: 材料包信息
+label: 材料包编号
+sort_no: 160
+type: text

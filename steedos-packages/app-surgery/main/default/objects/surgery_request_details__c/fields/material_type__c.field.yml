@@ -1,0 +1,17 @@
+name: material_type__c
+data_type: text
+filterable: false
+formula: CASE(product__c.material_type__c,​​ "耗材包", "耗材包", "钉盒", "钉盒","工具包")
+formula_blank_value: blanks
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 材料包类型
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 180
+sortable: false
+type: formula

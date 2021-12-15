@@ -1,0 +1,4 @@
+name: end__c
+label: 失效日期
+sort_no: 130
+type: date

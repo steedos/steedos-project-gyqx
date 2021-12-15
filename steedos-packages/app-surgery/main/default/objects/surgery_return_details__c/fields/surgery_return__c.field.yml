@@ -1,0 +1,6 @@
+name: surgery_return__c
+label: 扫码返库单
+reference_to: surgery_return__c
+sort_no: 110
+type: master_detail
+write_requires_master_read: true

@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    _id: c1d14c16-ea41-49af-ae4d-6d6b4a95a03f
+  - _id: 1aace6fc-224f-49ec-8024-26e2a273d507
+    field: code__c
+  - _id: ac46e257-abf1-41ec-9fa6-bef849ffcf99
+    field: production_barcode__c
+  - _id: 837108cc-cd48-4e40-88a6-c89de8fad9c6
+    field: type__c
+  - _id: 3c1c3bfd-ff2c-4446-b1a8-d333eb5bff1e
+    field: amount__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

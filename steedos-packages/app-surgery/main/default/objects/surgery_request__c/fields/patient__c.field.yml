@@ -1,0 +1,5 @@
+name: patient__c
+group: 病人信息
+label: 姓名
+sort_no: 180
+type: text

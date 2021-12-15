@@ -1,0 +1,6 @@
+name: surgery_type__c
+label: 手术类型
+reference_to: surgery_type__c
+required: true
+sort_no: 120
+type: lookup

@@ -1,0 +1,6 @@
+name: hospital_name__c
+label: 医院名称
+reference_to: accounts
+required: true
+sort_no: 110
+type: lookup

@@ -1,0 +1,5 @@
+name: product__c
+label: 产品名称
+reference_to: surgery_product_information__c
+sort_no: 120
+type: lookup

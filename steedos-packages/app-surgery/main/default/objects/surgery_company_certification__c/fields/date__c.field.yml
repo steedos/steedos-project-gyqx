@@ -1,0 +1,4 @@
+name: date__c
+label: 到期时间
+sort_no: 110
+type: date

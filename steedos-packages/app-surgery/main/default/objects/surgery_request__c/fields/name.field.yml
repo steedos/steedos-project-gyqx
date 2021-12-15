@@ -1,0 +1,8 @@
+name: name
+formula: '{YYYY}{MM}{DD}{00000}'
+index: true
+label: 请领单编号
+required: true
+searchable: true
+sort_no: 100
+type: autonumber

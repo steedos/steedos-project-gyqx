@@ -1,0 +1,13 @@
+name: all
+columns:
+  - field: name
+    _id: 93e94287-8463-4d93-8827-c053b43e3075
+  - _id: 6519f44a-cb41-45ce-8771-813598a3fe38
+    field: remark__c
+  - _id: ca4ab4ff-d38a-4677-a0b2-b63fffce5ac4
+    field: surgery_type__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

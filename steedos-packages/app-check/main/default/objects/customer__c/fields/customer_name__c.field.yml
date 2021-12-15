@@ -1,0 +1,4 @@
+name: customer_name__c
+label: 客户名称
+sort_no: 110
+type: text

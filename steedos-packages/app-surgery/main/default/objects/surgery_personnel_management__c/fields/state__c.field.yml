@@ -1,0 +1,10 @@
+name: state__c
+group: 信用信息
+label: 信用状态
+options:
+  - label: 正常
+    value: 正常
+  - label: 失效
+    value: 失效
+sort_no: 130
+type: select

@@ -1,0 +1,19 @@
+name: all
+columns:
+  - field: name
+    _id: 20bf5e59-527f-4bd7-b636-9bc2bbc266db
+  - _id: bbd689de-d51a-4789-80c6-75cb8d9d35a2
+    field: customer__c
+  - _id: 37da66c7-55f2-4ef4-9a46-5eb0657117b7
+    field: company__c
+  - _id: 98cc69dd-55be-470f-b943-61813d97015f
+    field: company_code__c
+  - _id: f5dbfdf7-05df-4e51-9db1-70d915f3f4e3
+    field: created_by
+  - _id: 7eb80409-0ebe-4730-8d69-306775ece25b
+    field: created
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

@@ -1,0 +1,5 @@
+name: age__c
+group: 病人信息
+label: 年龄
+sort_no: 190
+type: text

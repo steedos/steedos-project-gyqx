@@ -1,0 +1,6 @@
+name: consumabl_package__c
+group: 材料包信息
+label: 材料包名称
+reference_to: surgery_materia_package__c
+sort_no: 150
+type: lookup

@@ -1,0 +1,4 @@
+name: start__c
+label: 生效日期
+sort_no: 120
+type: date

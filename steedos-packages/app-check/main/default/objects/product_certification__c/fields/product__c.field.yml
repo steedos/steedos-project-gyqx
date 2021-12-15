@@ -1,0 +1,5 @@
+name: product__c
+label: 商品编码
+reference_to: product__c
+sort_no: 140
+type: master_detail

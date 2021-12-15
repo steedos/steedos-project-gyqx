@@ -1,0 +1,9 @@
+name: name
+hidden: false
+index: true
+is_name: true
+label: 证照编号
+required: true
+searchable: true
+sort_no: 100
+type: text

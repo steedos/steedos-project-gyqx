@@ -1,0 +1,7 @@
+name: deposit_paid__c
+group: 信用信息
+label: 已缴纳押金
+precision: 18
+scale: 2
+sort_no: 120
+type: currency

@@ -1,0 +1,17 @@
+name: amount__c
+data_type: currency
+filterable: false
+formula: ROUND(price__c*quantity__c,2)
+formula_blank_value: blanks
+hidden: false
+index: false
+is_name: false
+is_wide: false
+label: 金额
+omit: false
+readonly: false
+required: false
+searchable: false
+sort_no: 170
+sortable: false
+type: formula

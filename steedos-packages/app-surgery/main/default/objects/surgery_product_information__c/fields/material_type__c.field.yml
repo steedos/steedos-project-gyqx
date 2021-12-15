@@ -1,0 +1,12 @@
+name: material_type__c
+group: 材料包信息
+label: 材料包类型
+options:
+  - label: 耗材包
+    value: 耗材包
+  - label: 钉盒
+    value: 钉盒
+  - label: 工具包
+    value: 工具包
+sort_no: 170
+type: select

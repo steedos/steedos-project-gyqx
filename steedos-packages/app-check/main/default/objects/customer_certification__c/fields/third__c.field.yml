@@ -1,0 +1,14 @@
+name: third__c
+data_type: text
+group: 经营范围信息
+label: Ⅲ类经营范围
+multiple: true
+options:
+  - label: 产品分类1
+    value: 产品分类1
+  - label: 产品分类2
+    value: 产品分类2
+  - label: 产品分类3
+    value: 产品分类3
+sort_no: 170
+type: select

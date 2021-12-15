@@ -1,0 +1,8 @@
+name: name
+formula: 'JSD{YYYY}{MM}{DD}{00000}'
+index: true
+label: 结算单编号
+required: true
+searchable: true
+sort_no: 100
+type: autonumber

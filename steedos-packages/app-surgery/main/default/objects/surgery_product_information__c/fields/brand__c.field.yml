@@ -1,0 +1,4 @@
+name: brand__c
+label: 品牌
+sort_no: 120
+type: text

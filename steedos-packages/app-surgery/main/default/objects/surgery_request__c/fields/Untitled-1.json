@@ -1,0 +1,59 @@
+{
+    "collection": "surgery_request__c",
+    "aggregate": [{
+            "$project": {
+                "created": {
+                    "$dateToString": {
+                        "format": "%Y-%m-%d %H:%M",
+                        "date": "$created",
+                        "timezone": "+08"
+                    }
+                },
+                "created_month": {
+                    "$dateToString": {
+                        "format": "%Y-%m",
+                        "date": "$created",
+                        "timezone": "+08"
+                    }
+                },
+                "year": { "$year": "$created" },
+                "month": { "$month": "$created" },
+                "day": { "$dayOfMonth": "$created" }
+            }
+        },
+
+        {
+            "$match": {
+                "$and": [{
+                        "created": {
+                            "$gte": "{{ datetime.start }}"
+                        }
+                    },
+                    {
+                        "created": {
+                            "$lte": "{{ datetime.end }}"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$group": {
+                "_id": "$created_month",
+                "count": {
+                    "$count": 1
+                }
+            }
+        },
+        {
+            "$addFields": {
+                "year_tag": { "$substr": ["$_id", 0, 4] }
+            }
+        },
+        {
+            "$addFields": {
+                "mongth_tag": { "$substr": ["$_id", 5, 7] }
+            }
+        }
+    ]
+}

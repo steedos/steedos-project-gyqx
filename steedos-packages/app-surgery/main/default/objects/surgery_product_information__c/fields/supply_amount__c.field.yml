@@ -1,0 +1,6 @@
+name: supply_amount__c
+label: 可供量
+precision: 18
+scale: 2
+sort_no: 180
+type: number

@@ -1,0 +1,7 @@
+name: recent
+columns:
+  - field: product__c
+filter_scope: space
+filters: []
+label: 最近查看
+shared: true

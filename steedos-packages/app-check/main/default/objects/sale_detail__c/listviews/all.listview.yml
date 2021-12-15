@@ -1,0 +1,17 @@
+name: all
+columns:
+  - _id: baa170be-c4c3-4832-a03e-1db7766cd9da
+    field: product__c
+  - _id: ad338a39-861b-46a2-941d-82b01a891ef6
+    field: product_code__c
+  - _id: 9d899ee5-ec32-4945-bd18-b1dc4fe379ca
+    field: type__c
+  - _id: def3cbca-9ec0-4f14-a99d-8e9c619f1b69
+    field: amount__c
+  - _id: 840eb4c1-467c-4ba9-818b-45fc30b4c1f8
+    field: measure__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

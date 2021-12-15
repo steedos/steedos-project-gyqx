@@ -1,0 +1,5 @@
+name: approved_date__c
+label: 审批日期
+sort_no: 300
+type: date
+hidden: true

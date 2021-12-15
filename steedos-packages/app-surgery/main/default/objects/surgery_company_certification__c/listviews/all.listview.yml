@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    _id: 666ed4fb-3209-4c18-8401-4b41b767d367
+  - _id: 832305c4-2e80-49e7-9f73-2212adaead92
+    field: date__c
+  - _id: 229ae317-b23a-420b-9562-07ddd24a2712
+    field: states__c
+  - _id: 0d024237-dd4d-431e-8e42-3db6697256aa
+    field: company__c
+  - _id: 18ccac88-0582-4e4c-8a93-14b02dfed667
+    field: document__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

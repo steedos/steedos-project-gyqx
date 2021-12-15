@@ -1,0 +1,18 @@
+name: cretification__c
+label: 证照类型
+options:
+  - label: 营业执照
+    value: 营业执照
+    color: ''
+  - label: 税务登记证
+    value: 税务登记证
+    color: ''
+  - label: 对外贸易经营资格备案表
+    color: ''
+    value: 对外贸易经营资格备案表
+  - label: 公共场所卫生许可证
+    value: 公共场所卫生许可证
+  - label: 其他证照
+    value: 其他证照
+sort_no: 120
+type: select

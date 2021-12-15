@@ -1,0 +1,8 @@
+name: name
+formula: 'CKD{YYYY}{MM}{DD}{00000}'
+index: true
+label: 出库单编号
+required: true
+searchable: true
+sort_no: 100
+type: autonumber

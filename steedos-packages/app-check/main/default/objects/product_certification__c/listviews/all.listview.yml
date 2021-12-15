@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    _id: c07cdb94-abde-4441-a292-cd20d9c97a9f
+  - _id: dc1398ff-da80-49bd-872c-d3d23b27de77
+    field: certification__c
+  - _id: 07852bfb-7566-4f51-9830-5766dab1fefe
+    field: start__c
+  - _id: c5692408-d99b-4265-b32a-44d07ea993f7
+    field: end__c
+  - _id: c90c7dd4-c5a8-4b43-809a-35742f8a75c2
+    field: product__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

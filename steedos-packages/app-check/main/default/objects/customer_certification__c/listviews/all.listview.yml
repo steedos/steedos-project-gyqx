@@ -1,0 +1,29 @@
+name: all
+columns:
+  - field: name
+    _id: 384e6590-15fe-49e8-a777-cd900915e0b6
+  - _id: 902a2267-f80f-4557-9e42-92bbc54f01de
+    field: cretification__c
+  - _id: 5b57193e-aee0-4ede-9293-c124d0426faa
+    field: begin_date__c
+  - _id: c8ec4280-2d2d-4a97-88ce-c1124d90c56f
+    field: end_date__c
+  - _id: 865f2a55-e8b7-48fa-b80d-98d64cb274b6
+    field: customer_code__c
+  - _id: 39f88dcb-58ea-4cab-81f3-8f4669f5f00d
+    field: first__c
+  - _id: ab966745-1651-4471-a161-aabe1a7c2d6f
+    field: second__c
+  - _id: bbda4a04-af27-4a27-a699-f9d8b9cfa396
+    field: third__c
+  - _id: 8a0e1787-6cb8-4655-94b3-dd6b2b91a25c
+    field: first_new__c
+  - _id: cbf9f408-e026-4440-8a3c-807f07c1b992
+    field: second_new__c
+  - _id: bdf8e517-b201-4f89-81e9-c9ae10962e19
+    field: third_new__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

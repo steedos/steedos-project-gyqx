@@ -1,0 +1,25 @@
+name: all
+columns:
+  - _id: 6c9c6655-6687-4c6b-8123-03e0a2f145a6
+    field: product__c
+  - _id: c04dd1c9-0569-4fef-9e81-da1d026d5082
+    field: production_code__c
+  - _id: e033ec1b-dafd-4dac-8da4-8788059dee22
+    field: brand__c
+  - _id: 56bb0403-fef7-4380-8099-a3af8ebd914f
+    field: quantity__c
+  - _id: ccfbc5f5-efdf-494d-9a1d-6b685b8018de
+    field: price__c
+  - _id: e690c1ce-4276-4906-a529-cea414a2f5bd
+    field: amount__c
+  - _id: 99ce6654-d815-42de-838b-4037c46fd5bb
+    field: material_package__c
+  - _id: 36a8776e-32b3-4a72-8096-bb55ac8f966a
+    field: material_code__c
+  - _id: 0e3344a3-8601-49b6-9e00-74e0515d8b94
+    field: child_amount__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

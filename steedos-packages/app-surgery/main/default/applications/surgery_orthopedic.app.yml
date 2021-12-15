@@ -1,0 +1,19 @@
+name: 骨科手术业务
+code: surgery_orthopedic
+description: 骨科手术器械管理业务模块
+icon_slds: asset_relationship
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: false
+objects:
+  - surgery_request__c
+  - surgery_request_details__c
+  - surgery_distribution__c
+  - surgery_out__c
+  - surgery_receive__c
+  - surgery_return__c
+  - surgery_settlement__c
+sort: 9100
+visible: true

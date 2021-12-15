@@ -1,0 +1,34 @@
+name: state__c
+defaultValue: 草稿
+label: 状态
+omit: true
+readonly: true
+searchable: true
+options:
+  - label: 草稿
+    value: 草稿
+  - label: 已取消
+    value: 已取消
+  - label: 暂挂
+    value: 暂挂
+  - label: 已提交
+    value: 已提交
+  - label: 已拒绝
+    value: 已拒绝
+  - label: 已审核
+    value: 已审核
+  - label: 已配货
+    value: 已配货
+  - label: 已出库
+    value: 已出库
+  - label: 已签收
+    value: 已签收
+  - label: 已还回
+    value: 已还回
+  - label: 已结算
+    value: 已结算
+  - label: 完结
+    value: 完结
+sort_no: 150
+type: select
+hidden: true

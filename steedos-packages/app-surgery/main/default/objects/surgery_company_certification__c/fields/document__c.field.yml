@@ -1,0 +1,5 @@
+name: document__c
+label: 证件附件
+multiple: true
+sort_no: 130
+type: file

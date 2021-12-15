@@ -1,0 +1,36 @@
+name: surgery_distribution__c
+custom: true
+enable_api: true
+enable_audit: false
+enable_chatter: false
+enable_enhanced_lookup: true
+enable_events: false
+enable_files: false
+enable_inline_edit: true
+enable_instances: false
+enable_notes: false
+enable_search: true
+enable_share: false
+enable_tasks: false
+enable_tree: false
+enable_workflow: false
+icon: account
+is_enable: true
+label: 手术配货单
+version: 2
+form:
+  onValuesChange: !!js/function |
+    function(args){
+      const hospital = args.values.hospital_name__c;
+      console.log(args.values);
+      var options, result;
+      result = [];
+      options = {
+          $filter: `(account eq '${hospital}')`,
+          $select: 'name,mobile'
+      };
+      contacts = Creator.odata.query('contacts', options, true);
+      if(contacts && contacts.length){
+        args.form.setFieldsValue({contact__c: contacts[0].name,phone__c: contacts[0].mobile});
+      }
+    }

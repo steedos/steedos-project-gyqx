@@ -1,0 +1,12 @@
+name: gender__c
+group: 病人信息
+label: 性别
+options:
+  - label: 男
+    value: male
+  - label: 女
+    value: female
+  - label: 其他
+    value: other
+sort_no: 200
+type: select

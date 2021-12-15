@@ -1,0 +1,5 @@
+name: hospital_number__c
+group: 病人信息
+label: 住院号
+sort_no: 210
+type: text

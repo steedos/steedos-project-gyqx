@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    _id: ad5cd7c6-8331-4312-bc8c-70a9ec06fc8c
+  - _id: fbdd675c-c6d8-4672-bf0d-a2a497637bb0
+    field: user__c
+  - _id: bbc972fa-0153-4263-bf05-35e99f536d94
+    field: company__c
+  - _id: 33902157-faa2-459c-8acf-3dcfd2dac88b
+    field: deposit_paid__c
+  - _id: f89987c5-3459-45f8-b89c-5f3461fd62d3
+    field: state__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

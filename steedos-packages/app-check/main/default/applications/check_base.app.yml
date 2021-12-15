@@ -1,0 +1,14 @@
+name: 校验场景基础数据
+code: check_base
+description: 校验场景业务流程
+icon_slds: answer_best
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: true
+objects:
+  - customer__c
+  - product__c
+sort: 9100
+visible: true

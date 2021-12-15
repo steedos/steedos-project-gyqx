@@ -1,0 +1,6 @@
+name: surgery_request__c
+label: 手术请领单
+reference_to: surgery_request__c
+required: true
+sort_no: 300
+type: lookup

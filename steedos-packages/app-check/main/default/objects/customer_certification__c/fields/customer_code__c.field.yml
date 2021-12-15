@@ -1,0 +1,5 @@
+name: customer_code__c
+label: 客户编码
+reference_to: customer__c
+sort_no: 110
+type: master_detail

@@ -1,0 +1,9 @@
+name: states__c
+label: 证件状态
+options:
+  - label: 正常
+    value: 正常
+  - label: 失效
+    value: 失效
+sort_no: 120
+type: select

@@ -1,0 +1,5 @@
+name: surgery_date__c
+label: 手术日期
+required: true
+sort_no: 140
+type: date

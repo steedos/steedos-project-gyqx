@@ -1,0 +1,29 @@
+name: all
+columns:
+  - field: name
+    _id: 5b39e54a-92b8-42e3-9c98-edfb0a848d29
+  - _id: d34d145c-c209-4bb3-bdc9-68fa7ea819a2
+    field: production_code__c
+  - _id: 7736222b-6416-42a3-bb12-a72008c03e53
+    field: brand__c
+  - _id: b88f8a17-074e-4974-9471-7f2917477228
+    field: specification__c
+  - _id: 6cb465a8-d1b4-472c-bc2a-ce5968753f55
+    field: amount__c
+  - _id: 9655f972-1b21-43c6-9716-644ba163c09b
+    field: consumabl_package__c
+  - _id: 67abcdbf-1987-4963-b8d9-6ac948e7f5eb
+    field: material_package_number__c
+  - _id: 91942d29-07c0-45a9-897b-cb32183f5aaf
+    field: material_type__c
+  - _id: ea282ca8-921b-4cd7-a100-eca38c824993
+    field: quantity__c
+  - _id: 7e83c835-ef5c-4ca2-ba28-292785f4af32
+    field: surgery_type__c
+  - _id: 46cf9f5f-0b1d-4277-86d0-88b24beadbe7
+    field: surgery_site__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

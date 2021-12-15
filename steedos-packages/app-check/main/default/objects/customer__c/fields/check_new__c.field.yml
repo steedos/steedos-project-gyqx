@@ -1,0 +1,5 @@
+name: check_new__c
+group: 公司信息
+label: 校验新分类
+sort_no: 150
+type: boolean

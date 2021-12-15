@@ -1,0 +1,30 @@
+name: surgery_site__c
+label: 手术部位
+reference_to: surgery_site__c
+required: true
+sort_no: 130
+type: lookup
+filters: '{{[["surgery_type__c","=",formData.surgery_type__c]]}}'
+# depend_on:
+#   - surgery_type__c
+# optionsFunction: !<tag:yaml.org,2002:js/function> |-
+#   function (values) {
+#       if (!values || !values.surgery_type__c) {
+#           return [];
+#       }
+#       var surgery_type = _.isObject(values.surgery_type__c) ? values.surgery_type__c._id : values.surgery_type__c;
+#       var options, result, surgery_site;
+#       result = [];
+#       options = {
+#           $filter: `(surgery_type__c eq '${surgery_type}')`,
+#           $select: 'name,contract_payment'
+#       };
+#       surgery_site = Creator.odata.query('surgery_site__c', options, true);
+#       surgery_site.forEach(function (ss) {
+#           result.push({
+#               label: ss.name,
+#               value: ss._id
+#           });
+#       })
+#       return result;
+#   }

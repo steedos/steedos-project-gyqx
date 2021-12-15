@@ -1,0 +1,9 @@
+name: certification__c
+label: 证照类型
+options:
+  - label: 药品生产许可证
+    value: 药品生产许可证
+  - label: 医疗器械许可证
+    value: 医疗器械许可证
+sort_no: 110
+type: select

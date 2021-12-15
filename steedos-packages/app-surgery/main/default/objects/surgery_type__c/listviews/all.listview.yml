@@ -1,0 +1,11 @@
+name: all
+columns:
+  - field: name
+    _id: 3443113a-2359-44e0-9d92-48ccf162b47d
+  - _id: 28af6e18-a6b0-4471-b678-188810ff9d6c
+    field: remark__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

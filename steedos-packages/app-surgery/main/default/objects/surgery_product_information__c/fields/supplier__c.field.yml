@@ -1,0 +1,4 @@
+name: supplier__c
+label: 供应商
+sort_no: 190
+type: text

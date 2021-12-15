@@ -1,0 +1,11 @@
+name: type__c
+label: 客户分类
+options:
+  - label: 终端客户
+    value: 终端客户
+    color: A9AEB5
+  - label: 经销商
+    value: 经销商
+    color: 49d181
+sort_no: 120
+type: select

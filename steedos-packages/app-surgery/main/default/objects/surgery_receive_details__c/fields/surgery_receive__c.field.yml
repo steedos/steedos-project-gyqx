@@ -1,0 +1,6 @@
+name: surgery_receive__c
+label: 签收库单
+reference_to: surgery_receive__c
+sort_no: 110
+type: master_detail
+write_requires_master_read: true

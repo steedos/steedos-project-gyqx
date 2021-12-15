@@ -1,0 +1,4 @@
+name: production_barcode__c
+label: 生产条码
+sort_no: 120
+type: text

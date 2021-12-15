@@ -1,0 +1,5 @@
+name: company__c
+label: 分部
+reference_to: company
+sort_no: 140
+type: master_detail

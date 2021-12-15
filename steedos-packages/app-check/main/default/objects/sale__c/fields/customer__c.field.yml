@@ -1,0 +1,5 @@
+name: customer__c
+label: 客户名称
+reference_to: customer__c
+sort_no: 110
+type: lookup

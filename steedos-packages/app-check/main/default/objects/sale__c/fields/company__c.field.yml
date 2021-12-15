@@ -1,0 +1,4 @@
+name: company__c
+label: 公司名称
+sort_no: 120
+type: text

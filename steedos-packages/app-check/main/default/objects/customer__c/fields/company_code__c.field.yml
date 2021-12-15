@@ -1,0 +1,5 @@
+name: company_code__c
+group: 公司信息
+label: 公司编码
+sort_no: 140
+type: text

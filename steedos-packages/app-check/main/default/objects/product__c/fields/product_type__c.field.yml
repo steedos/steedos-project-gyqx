@@ -1,0 +1,13 @@
+name: product_type__c
+group: 校验信息
+label: 产品分类
+multiple: true
+options:
+  - label: 产品分类1
+    value: 产品分类1
+  - label: 产品分类2
+    value: 产品分类2
+  - label: 产品分类3
+    value: 产品分类3
+sort_no: 160
+type: select

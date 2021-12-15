@@ -1,0 +1,5 @@
+name: sale__c
+label: 销售单
+reference_to: sale__c
+sort_no: 160
+type: master_detail

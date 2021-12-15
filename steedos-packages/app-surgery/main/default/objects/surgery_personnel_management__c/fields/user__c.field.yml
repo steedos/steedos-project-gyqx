@@ -1,0 +1,5 @@
+name: user__c
+label: 用户
+reference_to: space_users
+sort_no: 110
+type: lookup

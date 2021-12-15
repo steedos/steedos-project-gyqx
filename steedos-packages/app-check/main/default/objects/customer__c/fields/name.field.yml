@@ -1,0 +1,7 @@
+name: name
+index: true
+label: 客户编码
+required: true
+searchable: true
+sort_no: 100
+type: text
