@@ -1,4 +1,5 @@
 name: product_code__c
 label: 商品编码
+readonly: true
 sort_no: 120
 type: text

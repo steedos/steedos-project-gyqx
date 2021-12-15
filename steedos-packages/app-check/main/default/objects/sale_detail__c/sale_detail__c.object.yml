@@ -18,3 +18,28 @@ icon: answer_public
 is_enable: true
 label: 销售明细行
 version: 2
+form:
+  onValuesChange: !!js/function |
+    function(args){
+      debugger;
+      const product__c = args.values.product__c;
+      if(!product__c){
+        args.form.setFieldsValue({product_code__c: null,type__c: null,measure__c: null});
+      }
+      var options, result;
+      result = [];
+      options = {
+          $filter: `(_id eq '${product__c}')`,
+          $select: 'name,product_code__c,type__c,measure__c'
+      };
+      product = Creator.odata.query('product__c', options, true);
+      if(product && product[0].product_code__c){
+        args.form.setFieldsValue({product_code__c: product[0].product_code__c});
+      }
+      if(product && product[0].type__c){
+        args.form.setFieldsValue({type__c: product[0].type__c});
+      }
+      if(product && product[0].measure__c){
+        args.form.setFieldsValue({measure__c: product[0].measure__c});
+      }
+    }
