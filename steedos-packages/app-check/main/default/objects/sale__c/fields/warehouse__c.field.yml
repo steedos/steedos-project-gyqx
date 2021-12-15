@@ -1,0 +1,11 @@
+name: warehouse__c
+label: 仓库
+options:
+  - label: 仓库A
+    value: 仓库A
+  - label: 仓库B
+    value: 仓库B
+  - label: 仓库C
+    value: 仓库C
+sort_no: 140
+type: select
