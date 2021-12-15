@@ -21,7 +21,6 @@ version: 2
 form:
   onValuesChange: !!js/function |
     function(args){
-      debugger;
       const product__c = args.values.product__c;
       if(!product__c){
         args.form.setFieldsValue({product_code__c: null,type__c: null,measure__c: null});
