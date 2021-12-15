@@ -1,0 +1,15 @@
+name: all
+columns:
+  - field: name
+    _id: 84439b45-2cd9-4e5d-9526-263f827950e5
+  - _id: 68968ef6-b4f7-4a78-9b54-b243012674eb
+    field: company_code__c
+  - _id: 5e4ecc76-3139-4e1e-8691-fdac16a1b6f4
+    field: check_new__c
+  - _id: 030ca8b6-efdf-4637-9254-f275a1ec527d
+    field: check_old__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

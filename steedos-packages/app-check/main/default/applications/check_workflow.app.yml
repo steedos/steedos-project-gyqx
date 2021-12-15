@@ -9,5 +9,5 @@ is_use_iframe: false
 mobile: true
 objects:
   - sale__c
-sort: 9100
+sort: 9110
 visible: true

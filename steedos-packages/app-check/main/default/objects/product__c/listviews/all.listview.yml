@@ -18,6 +18,10 @@ columns:
     field: risk_new__c
   - _id: 1cd83873-1d39-44ae-a423-550c1852418f
     field: product_type_new__c
+  - _id: 593f579c-e3a2-4964-b134-d160d6c144f6
+    field: check_certification__c
+  - _id: d960f4b6-dc5d-4fd8-a531-3f963577d9ef
+    field: check_validate__c
 filter_scope: space
 filters: []
 label: 所有

@@ -1,0 +1,11 @@
+name: check_certification__c
+data_type: text
+group: 校验信息
+label: 必有证照校验
+options:
+  - label: 'Y'
+    value: 'Y'
+  - label: O
+    value: O
+sort_no: 210
+type: select

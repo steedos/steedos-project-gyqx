@@ -10,5 +10,6 @@ mobile: true
 objects:
   - customer__c
   - product__c
+  - configuration_table__c
 sort: 9100
 visible: true

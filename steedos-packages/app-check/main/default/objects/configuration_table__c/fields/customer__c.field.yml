@@ -1,0 +1,10 @@
+name: customer__c
+data_type: text
+label: 客户分类
+options:
+  - label: 经销商
+    value: 经销商
+  - label: 终端客户
+    value: 经销商
+sort_no: 110
+type: select

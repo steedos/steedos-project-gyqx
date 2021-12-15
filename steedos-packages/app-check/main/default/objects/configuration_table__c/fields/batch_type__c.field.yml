@@ -1,9 +1,10 @@
-name: company_type__c
+name: batch_type__c
+data_type: text
 label: 公司批零类型
 options:
   - label: 批发
     value: 批发
   - label: 零售
     value: 零售
-sort_no: 170
+sort_no: 130
 type: select

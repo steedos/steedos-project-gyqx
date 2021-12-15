@@ -1,0 +1,12 @@
+name: risk__c
+data_type: text
+label: 风险等级
+options:
+  - label: '001'
+    value: '001'
+  - label: '002'
+    value: '002'
+  - label: '003'
+    value: '003'
+sort_no: 140
+type: select

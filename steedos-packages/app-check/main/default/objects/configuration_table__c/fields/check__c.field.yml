@@ -1,0 +1,16 @@
+name: check__c
+data_type: text
+label: 需校验的证照类型
+options:
+  - label: 营业执照
+    value: 营业执照
+  - label: 对外贸易经营资格备案表
+    value: 对外贸易经营资格备案表
+  - label: 税务登记证
+    value: 税务登记证
+  - label: 公共场所卫生许可证
+    value: 公共场所卫生许可
+  - label: 其他证照
+    value: 其他证照
+sort_no: 170
+type: select

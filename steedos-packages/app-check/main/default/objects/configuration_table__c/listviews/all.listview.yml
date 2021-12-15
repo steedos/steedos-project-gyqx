@@ -1,0 +1,21 @@
+name: all
+columns:
+  - field: customer__c
+    _id: 12037182-5aac-4ee8-9587-7195d337abb3
+  - _id: c21c4fdb-384f-4513-92fe-3c86c506eb07
+    field: supplier__c
+  - _id: c7ea24d8-7be2-419f-8d9f-b131f19c4146
+    field: batch_type__c
+  - _id: 1e85b1b9-1451-4513-886f-b67859f4ad3a
+    field: risk__c
+  - _id: 3c96c66b-fdbc-468e-95d9-38596f21435f
+    field: certification__c
+  - _id: ed8cbcd2-968e-418c-95a8-e895b6acae2f
+    field: validate__c
+  - _id: 71ead385-f071-4dc8-92c3-ef0de3a6412d
+    field: check__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

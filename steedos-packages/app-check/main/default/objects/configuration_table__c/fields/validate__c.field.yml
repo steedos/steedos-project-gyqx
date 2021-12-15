@@ -1,0 +1,10 @@
+name: validate__c
+data_type: text
+label: 范围效期校验
+options:
+  - label: 'Y'
+    value: 'Y'
+  - label: O
+    value: O
+sort_no: 160
+type: select

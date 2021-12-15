@@ -1,0 +1,4 @@
+name: check_old__c
+label: 校验旧分类
+sort_no: 100
+type: boolean

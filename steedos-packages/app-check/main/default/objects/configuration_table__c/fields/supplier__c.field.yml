@@ -1,0 +1,9 @@
+name: supplier__c
+label: 供应商分类
+options:
+  - label: 供应商分类1
+    value: 供应商分类1
+  - label: 供应商分类2
+    value: 供应商分类2
+sort_no: 120
+type: select

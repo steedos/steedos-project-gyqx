@@ -1,0 +1,4 @@
+name: check_new__c
+label: 校验新分类
+sort_no: 120
+type: boolean

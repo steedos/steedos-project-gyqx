@@ -1,0 +1,11 @@
+name: check_validate__c
+data_type: text
+group: 校验信息
+label: 范围效期校验
+options:
+  - label: 'Y'
+    value: 'Y'
+  - label: O
+    value: O
+sort_no: 220
+type: select
