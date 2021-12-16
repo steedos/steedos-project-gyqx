@@ -57,6 +57,10 @@ async function _checkClassifyAndRisk(doc, id) {
             throw new objectql.SteedosError(`新旧分类校验`, `新、旧分类校验均未通过`)
         }
 
+        if (checkNewPassed === false && checkOldPassed != true) {
+            throw new objectql.SteedosError(`新旧分类校验`, `新分类验未通过`)
+        }
+
     }
 }
 
