@@ -11,7 +11,7 @@ module.exports = {
         const userSession = await auth.getSessionByUserId(userId, spaceId);
 
         //设置记录的组织字段值
-        doc.organization = _.pick(userSession.organization, '_id');
+        doc.organization = userSession.organization._id;
         doc.organizations = _.map(userSession.organizations, '_id');
     },
 
