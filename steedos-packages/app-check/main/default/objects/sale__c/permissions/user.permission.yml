@@ -12,5 +12,5 @@ modifyAllRecords: false
 modifyCompanyRecords: false
 permission_set_id: user
 viewAllFiles: true
-viewAllRecords: false
+viewAllRecords: true
 viewCompanyRecords: true

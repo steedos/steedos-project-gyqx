@@ -1,0 +1,6 @@
+name: organization
+label: Main Department
+type: lookup
+reference_to: organizations
+omit: true
+filterable: true

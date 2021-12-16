@@ -1,0 +1,9 @@
+name: organizations
+type: lookup
+label: All Departments
+reference_to: organizations
+multiple: true
+index: true
+required: true
+filterable: true
+omit: true
