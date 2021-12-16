@@ -99,7 +99,7 @@ async function getBusinessScope(customer__c, isNew, risk) {
         return scopes
     }
 
-    const records = await objectql.getObject('customer_certification__c').find(customer__c, { filters: [['cretification__c', '=', '营业执照']], fields: [key] });
+    const records = await objectql.getObject('customer_certification__c').find({ filters: [['customer_code__c', '=', customer__c], ['cretification__c', '=', '营业执照']], fields: [key] });
 
     _.each(records, (record) => {
         scopes = scopes.concat(record[key] || [])
@@ -117,7 +117,7 @@ async function getBusinessScope(customer__c, isNew, risk) {
 async function checkNew(sale, product) {
     const { product_type_new__c, risk_new__c } = product;
     const scopes = await getBusinessScope(sale.customer__c, true, risk_new__c);
-    return _.includes(scopes, product_type_new__c)
+    return _.difference(product_type_new__c || [], scopes).length > 0
 }
 
 /**
@@ -129,5 +129,5 @@ async function checkNew(sale, product) {
 async function checkOld(sale, product) {
     const { product_type__c, risk__c } = product;
     const scopes = await getBusinessScope(sale.customer__c, false, risk__c);
-    return _.includes(scopes, product_type__c)
+    return _.difference(product_type__c || [], scopes).length > 0
 }
