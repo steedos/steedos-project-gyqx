@@ -8,3 +8,5 @@ options:
     value: 零售
 sort_no: 130
 type: select
+required: true
+visible_on: "{{!formData.customer__c && !formData.supplier__c}}"

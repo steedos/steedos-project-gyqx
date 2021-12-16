@@ -8,3 +8,5 @@ options:
     value: 终端客户
 sort_no: 110
 type: select
+required: true
+visible_on: "{{!formData.supplier__c && !formData.batch_type__c}}"

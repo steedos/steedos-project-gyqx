@@ -1,0 +1,5 @@
+name: company_code__c
+label: 公司编码
+sort_no: 50
+type: text
+required: true

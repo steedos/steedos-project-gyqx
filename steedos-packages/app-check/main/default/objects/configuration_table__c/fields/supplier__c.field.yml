@@ -7,3 +7,5 @@ options:
     value: 供应商分类2
 sort_no: 120
 type: select
+required: true
+visible_on: "{{!formData.customer__c && !formData.batch_type__c}}"

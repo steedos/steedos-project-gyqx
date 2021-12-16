@@ -3,10 +3,11 @@ data_type: text
 label: 状态
 options:
   - label: 有效
-    value: 有效
+    value: valid
     color: 49d181
   - label: 无效
-    value: 无效
+    value: invalid
     color: FF2D2D
 sort_no: 180
 type: select
+omit: true

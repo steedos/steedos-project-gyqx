@@ -1,5 +1,6 @@
 name: all
 columns:
+  - field: company_code__c
   - field: customer__c
     _id: 12037182-5aac-4ee8-9587-7195d337abb3
   - _id: c21c4fdb-384f-4513-92fe-3c86c506eb07

@@ -2,3 +2,4 @@ name: remark__c
 label: 提示信息
 sort_no: 190
 type: text
+omit: true
