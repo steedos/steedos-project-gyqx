@@ -15,13 +15,12 @@ module.exports = {
 
 async function _checkClassifyAndRisk(doc, id) {
     if (doc.sale__c && doc.product__c) {
-        let steedosSchema = objectql.getSteedosSchema();
-        let sale = await steedosSchema.getObject('sale__c').findOne(doc.sale__c, { fields: ['customer__c'] });
-        console.log(`sale`, sale);
+        //获取主表信息：销售记录
+        let sale = await objectql.getObject('sale__c').findOne(doc.sale__c, { fields: ['customer__c'] });
         // 获取公司新旧配置
-        let customer = await steedosSchema.getObject('customer__c').findOne(sale.customer__c, { fields: ['check_new__c', 'check_old__c'] });
+        let customer = await objectql.getObject('customer__c').findOne(sale.customer__c, { fields: ['check_new__c', 'check_old__c'] });
         // 获取商品信息
-        let product = await steedosSchema.getObject('product__c').findOne(doc.product__c, { fields: ['product_type_new__c', 'risk_new__c', 'product_type__c', 'risk__c'] });
+        let product = await objectql.getObject('product__c').findOne(doc.product__c, { fields: ['product_type_new__c', 'risk_new__c', 'product_type__c', 'risk__c'] });
 
         let checkNewPassed = null;
 
