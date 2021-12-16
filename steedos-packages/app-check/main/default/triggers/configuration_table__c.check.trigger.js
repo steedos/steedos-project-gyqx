@@ -1,6 +1,6 @@
 const objectql = require('@steedos/objectql');
 
-const checkStatus = async function (record, isDeleted) {
+const checkStatus = async function (record) {
     const { risk__c, company_code__c, supplier__c, batch_type__c, customer__c } = record;
     let { certification__c, validate__c } = record;
 
@@ -18,24 +18,11 @@ const checkStatus = async function (record, isDeleted) {
         uniqueFilters.push(['customer__c', '=', customer__c]);
     }
 
-
-    if (isDeleted) {
-        const records = await objectql.getObject('configuration_table__c').find({ filters: uniqueFilters })
-        if (!records || records.length === 1) {
-            return;
-        } else {
-            //优先取 范围效期校验 = Y
-            let peerRecord = _.find(records, (record) => {
-                return record.validate__c === 'Y';
-            })
-            if (!peerRecord) {
-                peerRecord = records[0];
-            }
-            certification__c = peerRecord.certification__c;
-            validate__c = peerRecord.validate__c;
-        }
-    }
-
+    //获取是否有 范围效期校验 = Y 的平级记录
+    const records = await objectql.getObject('configuration_table__c').find({ filters: uniqueFilters })
+    let peerYRecord = _.find(records, (record) => {
+        return record.validate__c === 'Y';
+    })
 
     //【必有证照校验】中如果有维护O，则需要至少有两行是O
     if (certification__c === 'O') {
@@ -59,14 +46,15 @@ const checkStatus = async function (record, isDeleted) {
         }
     }
 
+
+
     //【范围效期校验】中如果有维护Y，则有且只能有一个Y，且不能有为O的行；
-    if (validate__c === 'Y') {
-        const recordsCountY = await objectql.getObject('configuration_table__c').count({ filters: uniqueFilters.concat(['validate__c', '=', validate__c]) });
+    if (peerYRecord || validate__c === 'Y') {
+        const recordsCountY = await objectql.getObject('configuration_table__c').count({ filters: uniqueFilters.concat([['validate__c', '=', 'Y']]) });
         if (recordsCountY != 1) {
             await objectql.getObject('configuration_table__c').updateMany(uniqueFilters, { states__c: 'invalid', remark__c: '有且只能有一个Y，且不能有为O的行' });
         }
-
-        const recordsCountO = await objectql.getObject('configuration_table__c').count({ filters: uniqueFilters.concat(['validate__c', '=', 'O']) });
+        const recordsCountO = await objectql.getObject('configuration_table__c').count({ filters: uniqueFilters.concat([['validate__c', '=', 'O']]) });
         if (recordsCountO != 0) {
             await objectql.getObject('configuration_table__c').updateMany(uniqueFilters, { states__c: 'invalid', remark__c: '有且只能有一个Y，且不能有为O的行' });
         }
@@ -94,7 +82,7 @@ module.exports = {
     //删除记录后执行
     afterDelete: async function () {
         const { previousDoc } = this;
-        await checkStatus(previousDoc, true);
+        await checkStatus(previousDoc);
     },
 
 }
