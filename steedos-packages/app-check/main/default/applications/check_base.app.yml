@@ -1,6 +1,6 @@
-name: 校验场景基础数据
+name: 数据校验场景
 code: check_base
-description: 校验场景业务流程
+description: 新旧分类校验和客商公司范围检验场景基础数据及业务流程
 icon_slds: answer_best
 is_creator: true
 is_new_window: false
@@ -11,5 +11,6 @@ objects:
   - customer__c
   - product__c
   - configuration_table__c
+  - sale__c
 sort: 9100
 visible: true
