@@ -4,4 +4,6 @@ label: 销售单单号
 required: true
 searchable: true
 sort_no: 100
-type: text
+type: formula
+data_type: text
+formula:  'MID (TEXT( TODAY() ), 3, 2)&"-XSD-"&company_code__c'
