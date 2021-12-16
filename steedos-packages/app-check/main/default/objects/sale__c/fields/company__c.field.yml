@@ -1,4 +1,7 @@
 name: company__c
+data_type: text
+formula: customer__c.company__c
+formula_blank_value: zeroes
 label: 公司名称
 sort_no: 120
-type: text
+type: formula
