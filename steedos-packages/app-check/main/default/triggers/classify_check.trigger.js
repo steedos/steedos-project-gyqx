@@ -21,7 +21,7 @@ async function _checkClassifyAndRisk(doc, id) {
         // 获取公司新旧配置
         let customer = await steedosSchema.getObject('customer__c').findOne(sale.customer__c, { fields: ['check_new__c', 'check_old__c'] });
         // 获取商品信息
-        let product = await steedosSchema.getObject('product__c').findOne(doc.product__c, { fields: ['product_type_new__c','risk_new__c'] });
+        let product = await steedosSchema.getObject('product__c').findOne(doc.product__c, { fields: ['product_type_new__c', 'risk_new__c', 'product_type__c', 'risk__c'] });
 
         let checkNewPassed = null;
 
@@ -128,7 +128,7 @@ async function checkNew(sale, product) {
  * @returns 
  */
 async function checkOld(sale, product) {
-    const { product_type_new__c, risk_new__c } = product;
-    const scopes = await getBusinessScope(sale.customer__c, false, risk_new__c);
-    return _.includes(scopes, product_type_new__c)
+    const { product_type__c, risk__c } = product;
+    const scopes = await getBusinessScope(sale.customer__c, false, risk__c);
+    return _.includes(scopes, product_type__c)
 }
