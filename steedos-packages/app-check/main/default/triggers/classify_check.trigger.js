@@ -100,7 +100,7 @@ async function getBusinessScope(customer__c, isNew, risk) {
         return scopes
     }
 
-    const records = await steedosSchema.getObject('customer_certification__c').find(sale.customer__c, { filters: [['cretification__c', '=', '营业执照']], fields: [key] });
+    const records = await objectql.getObject('customer_certification__c').find(customer__c, { filters: [['cretification__c', '=', '营业执照']], fields: [key] });
 
     _.each(records, (record) => {
         scopes = scopes.concat(record[key] || [])
