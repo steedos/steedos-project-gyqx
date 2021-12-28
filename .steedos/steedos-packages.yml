@@ -28,3 +28,9 @@ steedos-app-default:
   description: ''
   local: true
   path: steedos-packages/app-check
+'@steedos-labs/permission':
+  enable: true
+  version: 2.1.33
+  description: ''
+  local: true
+  path: steedos-packages/app-permission
