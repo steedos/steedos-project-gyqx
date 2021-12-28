@@ -1,0 +1,5 @@
+name: object5_3
+label: 业务对象六-D仓库
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

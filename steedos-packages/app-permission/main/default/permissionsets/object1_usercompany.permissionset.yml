@@ -1,0 +1,5 @@
+name: object1_usercompany
+label: 业务场景一查看本公司数据
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

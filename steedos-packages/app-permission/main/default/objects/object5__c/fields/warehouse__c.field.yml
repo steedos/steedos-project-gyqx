@@ -1,0 +1,13 @@
+name: warehouse__c
+label: 仓库（选择框）
+options:
+  - label: A仓库
+    value: A仓库
+  - label: B仓库
+    value: B仓库
+  - label: C仓库
+    value: C仓库
+  - label: D仓库
+    value: D仓库
+sort_no: 110
+type: select

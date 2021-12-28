@@ -1,0 +1,16 @@
+name: 业务对象一-本公司数据.业务场景一查看本公司数据
+allowCreate: false
+allowCreateFiles: false
+allowDelete: false
+allowDeleteFiles: false
+allowEdit: false
+allowEditFiles: false
+allowRead: true
+allowReadFiles: false
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: object1_usercompany
+viewAllFiles: false
+viewAllRecords: false
+viewCompanyRecords: true

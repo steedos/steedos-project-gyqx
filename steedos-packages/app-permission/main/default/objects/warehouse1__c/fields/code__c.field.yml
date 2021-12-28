@@ -1,0 +1,5 @@
+name: code__c
+formula: '{000000}'
+label: 仓库编码
+sort_no: 120
+type: autonumber

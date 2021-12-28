@@ -1,0 +1,5 @@
+name: object6_1
+label: 业务对象九-管理人员
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

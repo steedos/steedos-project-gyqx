@@ -1,0 +1,8 @@
+name: name
+formula: 'CJ6-{0000}'
+index: true
+label: 单据编号
+required: true
+searchable: true
+sort_no: 100
+type: autonumber

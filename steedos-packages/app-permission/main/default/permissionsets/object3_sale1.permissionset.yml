@@ -1,0 +1,5 @@
+name: object3_sale1
+label: 业务场景三A角色销售单查看、新增、编辑
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

@@ -1,0 +1,6 @@
+name: text2__c
+label: 财务数据2
+precision: 18
+scale: 2
+sort_no: 120
+type: currency

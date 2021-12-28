@@ -1,0 +1,6 @@
+name: object3_sale2
+assigned_apps: []
+label: 业务场景三A角色销售单删除
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

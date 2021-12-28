@@ -1,0 +1,19 @@
+name: all
+columns:
+  - field: name
+    _id: dada528e-7dfb-4148-9ce1-694fbf7d5098
+  - _id: 14efbfee-e3cc-4cd4-9d1c-490a54ea8508
+    field: text1__c
+  - _id: 80161b08-5c35-4438-864d-59812da14c60
+    field: text2__c
+  - _id: e7e07fa4-89e2-4fdb-a2c9-53ebf3eb290c
+    field: created_by
+  - _id: e24f565d-ba3a-4cdd-b7fd-512112444107
+    field: company_ids
+  - _id: 77bfa416-8400-4b66-b1a8-f673aa86e531
+    field: remark__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

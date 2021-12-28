@@ -1,0 +1,7 @@
+name: code__c
+data_type: text
+formula: warehouse1__c.code__c
+formula_blank_value: zeroes
+label: 仓库编码
+sort_no: 130
+type: formula

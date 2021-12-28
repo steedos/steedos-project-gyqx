@@ -1,0 +1,5 @@
+name: warehouse1__c
+label: 仓库
+reference_to: warehouse1__c
+sort_no: 120
+type: lookup

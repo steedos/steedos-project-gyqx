@@ -1,0 +1,5 @@
+name: department__c
+label: 所属部门
+reference_to: organizations
+sort_no: 120
+type: lookup

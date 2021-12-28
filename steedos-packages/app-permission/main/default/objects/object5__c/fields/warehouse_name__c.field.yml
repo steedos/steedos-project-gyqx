@@ -1,0 +1,7 @@
+name: warehouse_name__c
+data_type: text
+formula: warehouse1__c.name
+formula_blank_value: zeroes
+label: 仓库名称
+sort_no: 140
+type: formula

@@ -1,0 +1,5 @@
+name: object4_2
+label: 业务场景五管理人员权限
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

@@ -1,0 +1,16 @@
+name: 业务对象三-销售单（角色无交叉）.业务场景三001公司A角色销售订单
+allowCreate: true
+allowCreateFiles: false
+allowDelete: true
+allowDeleteFiles: false
+allowEdit: true
+allowEditFiles: false
+allowRead: true
+allowReadFiles: false
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: object3_sale
+viewAllFiles: false
+viewAllRecords: false
+viewCompanyRecords: false

@@ -1,0 +1,6 @@
+name: object4_1
+assigned_apps: []
+label: 业务场景五财务人员
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

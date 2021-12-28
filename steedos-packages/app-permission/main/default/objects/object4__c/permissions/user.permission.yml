@@ -1,0 +1,16 @@
+name: 业务对象五-字段权限.用户
+allowCreate: true
+allowCreateFiles: true
+allowDelete: true
+allowDeleteFiles: true
+allowEdit: true
+allowEditFiles: true
+allowRead: true
+allowReadFiles: true
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: user
+viewAllFiles: true
+viewAllRecords: false
+viewCompanyRecords: false

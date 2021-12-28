@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    _id: 38c15f7c-8da3-4351-9b70-a9569cd445d3
+  - _id: e8d7fde3-cb84-4f2a-bcdb-9fa8211d8474
+    field: created_by
+  - _id: 04a2161d-3d95-44b6-9e32-b68f36a1b39a
+    field: department__c
+  - _id: 3e0d1dae-7a11-404c-b2b9-5b9e688603e1
+    field: company_ids
+  - _id: f23f878f-f91c-4422-bfab-208ffd033d74
+    field: remark__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

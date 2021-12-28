@@ -1,0 +1,5 @@
+name: object6_2
+label: 业务对象九-公司内勤
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

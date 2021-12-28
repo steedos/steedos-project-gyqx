@@ -1,0 +1,20 @@
+name: 业务对象五-字段权限.业务场景五普通业务人员权限
+allowCreate: false
+allowCreateFiles: false
+allowDelete: false
+allowDeleteFiles: false
+allowEdit: false
+allowEditFiles: false
+allowRead: true
+allowReadFiles: false
+field_permissions:
+  - field: text2__c
+    read: false
+    edit: false
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: object4_3
+viewAllFiles: false
+viewAllRecords: false
+viewCompanyRecords: true

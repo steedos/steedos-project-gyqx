@@ -1,0 +1,16 @@
+name: 业务对象三-采购单.业务场景三002公司B角色采购订单
+allowCreate: true
+allowCreateFiles: false
+allowDelete: true
+allowDeleteFiles: false
+allowEdit: true
+allowEditFiles: false
+allowRead: true
+allowReadFiles: false
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: object3_purchase
+viewAllFiles: false
+viewAllRecords: false
+viewCompanyRecords: false

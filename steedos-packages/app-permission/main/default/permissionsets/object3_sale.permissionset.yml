@@ -1,0 +1,6 @@
+name: object3_sale
+assigned_apps: []
+label: 业务场景三001公司A角色销售订单
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

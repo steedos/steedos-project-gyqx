@@ -1,0 +1,5 @@
+name: object3_purchase
+label: 业务场景三002公司B角色采购订单
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set

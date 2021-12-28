@@ -1,0 +1,9 @@
+name: type__c
+label: 仓库类型
+options:
+  - label: 公有仓库
+    value: 公有仓库
+  - label: 私有仓库
+    value: 私有仓库
+sort_no: 110
+type: select

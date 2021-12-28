@@ -1,0 +1,21 @@
+name: 权限配置场景
+code: permission
+description: 人员、对象数据权限配置
+icon_slds: answer_best
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: true
+objects:
+  - object1__c
+  - object2__c
+  - object3_1__c
+  - object3_2__c
+  - object3_3__c
+  - object4__c
+  - object5__c
+  - object6__c
+  - warehouse1__c
+sort: 9110
+visible: true

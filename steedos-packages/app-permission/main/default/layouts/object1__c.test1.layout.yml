@@ -1,0 +1,21 @@
+name: test1
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+  - button_name: standard_delete_many
+  - button_name: standard_query
+fields:
+  - field_name: name
+    is_required: true
+  - field_name: remark__c
+  - field_name: company_ids
+label: 基本页面布局
+object_name: object1__c
+profiles:
+  - admin
+  - user
+  - supplier
+  - customer
+related_lists: []
+type: record

@@ -1,0 +1,5 @@
+name: profile__c
+defaultValue: '{{global.user.profile}}'
+label: 简档
+sort_no: 120
+type: lookup

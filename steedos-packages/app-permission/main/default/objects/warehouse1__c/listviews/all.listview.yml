@@ -1,0 +1,13 @@
+name: all
+columns:
+  - field: name
+    _id: 27f483a8-fa6b-4b9f-bb0b-1cb3d375dd2b
+  - _id: d11165d9-ab09-4db2-a591-4632ef2d37a9
+    field: type__c
+  - _id: 2e9fffad-2a15-40c3-98c4-e51f929afb45
+    field: code__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

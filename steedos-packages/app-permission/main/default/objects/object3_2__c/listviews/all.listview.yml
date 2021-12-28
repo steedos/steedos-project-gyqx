@@ -1,0 +1,15 @@
+name: all
+columns:
+  - field: name
+    _id: 342e6555-8a61-4087-9af2-21f45f249f47
+  - _id: cf552f4c-a663-4081-b95e-3287ae7fafe0
+    field: created_by
+  - _id: 3e8929ba-23c6-4409-b9f4-235cfb6c10ae
+    field: company_ids
+  - _id: 47173da3-f422-4231-994a-3192e05d22f7
+    field: remark__c
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

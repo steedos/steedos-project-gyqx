@@ -1,0 +1,16 @@
+name: 业务对象三-采购（角色无交叉）.用户
+allowCreate: false
+allowCreateFiles: true
+allowDelete: false
+allowDeleteFiles: true
+allowEdit: false
+allowEditFiles: true
+allowRead: false
+allowReadFiles: true
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: user
+viewAllFiles: true
+viewAllRecords: false
+viewCompanyRecords: false

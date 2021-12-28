@@ -1,0 +1,16 @@
+name: 业务对象六-外部客户.客户
+allowCreate: true
+allowCreateFiles: false
+allowDelete: true
+allowDeleteFiles: false
+allowEdit: true
+allowEditFiles: false
+allowRead: true
+allowReadFiles: false
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: customer
+viewAllFiles: false
+viewAllRecords: false
+viewCompanyRecords: false

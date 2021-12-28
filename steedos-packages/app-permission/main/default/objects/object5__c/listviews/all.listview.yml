@@ -1,0 +1,17 @@
+name: all
+columns:
+  - field: name
+    _id: 18d247be-2b26-4478-a76f-c8f50e6b6804
+  - _id: 819c10d2-7b66-4f32-ada5-5bbc307719d6
+    field: warehouse_name__c
+  - _id: 1999e858-0401-4a7a-a345-b8da23f5fdbe
+    field: code__c
+  - _id: 3b880dda-f3f5-464f-938c-a27aab0f60fe
+    field: created_by
+  - _id: 42c6bc8e-70a1-421c-93d1-0ad51b8aedfd
+    field: company_ids
+filter_scope: space
+filters: []
+label: 所有
+shared: true
+sort_no: 100

@@ -1,0 +1,16 @@
+name: 业务对象九-外部客户.业务对象九-公司内勤
+allowCreate: false
+allowCreateFiles: false
+allowDelete: false
+allowDeleteFiles: false
+allowEdit: false
+allowEditFiles: false
+allowRead: true
+allowReadFiles: false
+modifyAllFiles: false
+modifyAllRecords: false
+modifyCompanyRecords: false
+permission_set_id: object6_2
+viewAllFiles: false
+viewAllRecords: false
+viewCompanyRecords: true

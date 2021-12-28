@@ -1,0 +1,6 @@
+name: object2
+assigned_apps: []
+label: 业务场景二查看指定部门数据
+login_expiration_in_days: 90
+phone_login_expiration_in_days: 90
+type: permission_set
