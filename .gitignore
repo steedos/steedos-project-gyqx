@@ -111,3 +111,4 @@ docker-volumes
 .DS_Store
 .steedos/.yarnrc
 .steedos/.npmrc
+dump.rdb
