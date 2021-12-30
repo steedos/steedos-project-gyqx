@@ -1,0 +1,6 @@
+name: other_department
+active: true
+description: object2权限集用户查看其他公司北京物流中心数据
+entry_criteria: '{{$user.roles.indexOf(''object2'') > -1}}'
+object_name: object2__c
+record_filter: '{{["department__c","=","ew2adijb5EvFy5rec"]}}'

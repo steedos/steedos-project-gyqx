@@ -1,0 +1,5 @@
+name: warehouse_d
+active: true
+entry_criteria: '{{$user.roles.indexOf(''object5_3'') > -1}}'
+object_name: warehouse1__c
+record_filter: '{{["name","in",["D仓库"]]}}'

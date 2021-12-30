@@ -1,0 +1,6 @@
+name: specific_department
+active: true
+description: object2权限集用户查看本公司商务二部数据
+entry_criteria: '{{$user.roles.indexOf(''object2'') > -1}}'
+object_name: object2__c
+record_filter: '{{["department__c","=","fLSoxtjT9Az2hpg9F"]}}'

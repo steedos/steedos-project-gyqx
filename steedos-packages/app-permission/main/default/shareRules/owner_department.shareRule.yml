@@ -1,0 +1,6 @@
+name: owner_department
+active: true
+description: 用户查看本部门数据
+entry_criteria: '{{$user.profile ===''user''}}'
+object_name: object2__c
+record_filter: '{{["department__c","=",$user.organization._id]}}'

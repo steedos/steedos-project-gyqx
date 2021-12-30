@@ -1,0 +1,6 @@
+name: specific_customers
+active: false
+description: 共享两个指定客户权限
+entry_criteria: '{{$user.roles.indexOf(''object6_1'') > -1}}'
+object_name: object6__c
+record_filter: '{{["created_by","in",["4Ln87CqxwSgoqXeLQ","zuXKsAz4vePkw66MD"]]}}'

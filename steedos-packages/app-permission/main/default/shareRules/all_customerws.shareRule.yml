@@ -1,0 +1,7 @@
+name: all_customerws
+active: true
+description: 共享本公司所有客户数据
+entry_criteria: '{{$user.roles.indexOf(''object6_1'') > -1}}'
+object_name: object6__c
+record_filter: >-
+  {{["profile__c","=","customer"]&&["company_id","=",$user.organization.company_id]}}

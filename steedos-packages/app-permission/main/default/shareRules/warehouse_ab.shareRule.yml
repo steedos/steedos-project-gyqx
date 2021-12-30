@@ -1,0 +1,6 @@
+name: warehouse_ab
+active: true
+description: object5权限集查看叠加A、B仓库数据。
+entry_criteria: '{{$user.roles.indexOf(''object5_4'') > -1}}'
+object_name: object5__c
+record_filter: '{{["warehouse_name__c","in",["A仓库","B仓库",,"C仓库"]]}}'
