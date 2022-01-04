@@ -12,3 +12,4 @@ modifyAllRecords: true
 permission_set_id: admin
 viewAllFiles: true
 viewAllRecords: true
+field_permissions: []

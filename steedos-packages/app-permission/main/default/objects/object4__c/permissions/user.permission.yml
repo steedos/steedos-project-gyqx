@@ -14,3 +14,4 @@ permission_set_id: user
 viewAllFiles: true
 viewAllRecords: false
 viewCompanyRecords: false
+field_permissions: []

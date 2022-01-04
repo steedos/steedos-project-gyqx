@@ -8,9 +8,84 @@ allowEditFiles: false
 allowRead: true
 allowReadFiles: false
 field_permissions:
+  - field: name
+    readable: true
+    editable: false
+  - field: text1__c
+    readable: true
+    editable: true
   - field: text2__c
-    read: false
-    edit: false
+    readable: false
+    editable: false
+  - field: remark__c
+    readable: true
+    editable: false
+  - field: owner
+    readable: false
+    editable: false
+  - field: created
+    readable: true
+    editable: false
+  - field: created_by
+    readable: true
+    editable: false
+  - field: modified
+    readable: true
+    editable: false
+  - field: modified_by
+    readable: true
+    editable: false
+  - field: locked
+    readable: false
+    editable: false
+  - field: company_id
+    readable: false
+    editable: false
+  - field: company_ids
+    readable: false
+    editable: false
+  - field: instance_state
+    readable: false
+    editable: false
+  - field: name
+    readable: true
+    editable: false
+  - field: text1__c
+    readable: false
+    editable: false
+  - field: text2__c
+    readable: false
+    editable: false
+  - field: remark__c
+    readable: true
+    editable: false
+  - field: owner
+    readable: false
+    editable: false
+  - field: created
+    readable: true
+    editable: false
+  - field: created_by
+    readable: true
+    editable: false
+  - field: modified
+    readable: true
+    editable: false
+  - field: modified_by
+    readable: true
+    editable: false
+  - field: locked
+    readable: false
+    editable: false
+  - field: company_id
+    readable: false
+    editable: false
+  - field: company_ids
+    readable: false
+    editable: false
+  - field: instance_state
+    readable: false
+    editable: false
 modifyAllFiles: false
 modifyAllRecords: false
 modifyCompanyRecords: false
